@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+<<<<<<< Updated upstream
+=======
+        mainViewModel =
+            ViewModelProvider(this, MainViewModelFactory(10))[MainViewModel::class.java]
+>>>>>>> Stashed changes
         setContent()
     }
 
