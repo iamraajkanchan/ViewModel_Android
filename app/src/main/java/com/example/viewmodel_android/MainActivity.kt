@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContent()
     }
 
-    /* Do not declare the fun as private because this function is declared in the xml file of the activity*/
+    /* Do not declare the fun as private because this function is declared in the xml file of MainActivity*/
     fun increment(view: View?) {
         mainViewModel.increment()
         setContent()
