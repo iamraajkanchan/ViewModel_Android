@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         mainViewModel =
-            ViewModelProvider(this, MainViewModelFactory(10))[MainViewModel::class.java]
+            ViewModelProvider(this, MainViewModelFactory(counter))[MainViewModel::class.java]
         setContent()
     }
 
